@@ -18,7 +18,7 @@ gem "extlib"
 gem "json"
 gem "rack-cache"
 gem "rack-contrib"
-gem "sinatra"
+gem "sinatra", ">= 4.0.0"
 gem "systemu"
 gem "unicorn"
 
