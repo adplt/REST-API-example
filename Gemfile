@@ -7,7 +7,7 @@ gem "dm-constraints"
 gem "dm-core"
 gem "dm-is-state_machine"
 gem "dm-migrations"
-gem "dm-redis-adapter"
+gem "dm-redis-adapter", ">= 0.10.0"
 gem 'dm-sqlite-adapter'
 gem 'dm-mysql-adapter'
 gem "dm-serializer"
