@@ -7,7 +7,7 @@ gem "dm-constraints"
 gem "dm-core"
 gem "dm-is-state_machine"
 gem "dm-migrations"
-gem "dm-redis-adapter"
+gem "dm-redis-adapter", ">= 0.10.0"
 gem 'dm-sqlite-adapter'
 gem 'dm-mysql-adapter'
 gem "dm-serializer"
@@ -18,9 +18,9 @@ gem "extlib"
 gem "json"
 gem "rack-cache"
 gem "rack-contrib"
-gem "sinatra"
+gem "sinatra", ">= 4.0.0"
 gem "systemu"
-gem "unicorn"
+gem "unicorn", ">= 5.1.0"
 
 group :production do
   gem "do_mysql"
